@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>uploadmovie</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"> 
+        <!-- js -->
+    	 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<!--        <-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		 
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		 
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		 
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+	</head>
+	<body>
+		<div id= "logo">
+		   <img src = "../images/logo.png"  alt="images" width="100" height="100">
+		</div>
+
+		<div id= header>
+			<p id= "header1">Real and reel by one get two free</p>
+		</div>
+		<div id="nav">
+			<button class="btn btn-primary btn-lg" onclick="document.location= '../index.html'" >Go back To HomePage</button>
+		</div>
+
+		<form id="table2">
+			<div class="form-group">
+			<table>
+				<tr>
+					<th>Movie Name</th>
+					<th>Lead actor</th>
+				</tr>	
+				<tr>
+					<td><input class="form-control form-lg" type="text" name="Moviename" placeholder= "Movie Name"><br></td>
+					<td><input  class="form-control form-lg" type="text" name="Leadactor" placeholder= "Lead actor"><br></td>
+				</tr>
+				<tr>
+					<th>Duration</th>
+					<th>Movie poster</th>
+				</tr>	
+				<tr>
+					<td><input class="form-control form-lg" type="text" name="Duration" placeholder= "Duration"><br></td>
+			<td>
+				<div class="custom-file">
+					<input class="form-control form-lg" type="file " class ="custom-file-input" name="movieposter"><br>
+					<label class="custom-file-label" for ="customeFile"> No file selected</label>
+				</div>
+
+			</td>
+				</tr>
+				<tr>
+					<th>Rating</th>
+					<th>Genre</th>
+				</tr>	
+				<tr>
+					<td><input  class="form-control form-lg" type="text" name="Rating" placeholder= "Rating"><br></td>
+					<td><input  class="form-control form-lg" type="text" name="Genre" placeholder= "Genre"><br></td>
+				</tr>
+				<tr> 
+					 <td> <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit"></td>
+					<td> <input class="btn btn-primary btn-lg btn-danger btn-block" type="reset" value="reset"></td>
+
+				</tr>
+
+
+
+
+			</table>
+
+
+
+
+
+		</div>
+		</form>
+
+
+
+
+
+	</body>
+
+</html>
